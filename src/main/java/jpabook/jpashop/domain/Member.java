@@ -22,4 +22,8 @@ public class Member {
 
     @OneToMany(mappedBy = "member") //Order에 있는 member 컬럼
     private List<Order> orderList = new ArrayList<>();
+
+    public void setName(String name) {
+        this.name = name;
+    }
 }
