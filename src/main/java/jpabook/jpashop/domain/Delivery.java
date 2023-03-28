@@ -24,4 +24,12 @@ public class Delivery {
     public void setOrder(Order order) {
         this.order = order;
     }
+
+    public void setAdress(Address address) {
+        this.address = address;
+    }
+
+    public void setStatus(DeliveryStatus deliveryStatus) {
+        this.deliveryStatus = deliveryStatus;
+    }
 }
